@@ -4,7 +4,7 @@ const UniversityMarquee = () => {
   const universities = [
     {
       name: "Harvard",
-      logo: 'https://cdn-editing-temp.picsart.com/editing-temp-landings/26a46e31-8d0f-4aeb-83ad-039d4504dc82.png',
+      logo: "https://cdn-editing-temp.picsart.com/editing-temp-landings/26a46e31-8d0f-4aeb-83ad-039d4504dc82.png",
     },
     {
       name: "MIT",
