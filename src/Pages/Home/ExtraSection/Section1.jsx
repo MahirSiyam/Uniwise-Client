@@ -1,5 +1,4 @@
 import React from "react";
-
 import oxford from "../../../assets/oxford.jpg";
 import harvard from "../../../assets/harward.jpg";
 import tokyo from "../../../assets/tokeyo.jpg";
@@ -27,7 +26,9 @@ const Section1 = () => {
             className="w-full h-50 mx-auto mb-4 object-contain"
           />
           <h3 className="text-xl font-semibold">Harvard University</h3>
-          <p className="font-extralight">USA · Leader in Research Scholarships</p>
+          <p className="font-extralight">
+            USA · Leader in Research Scholarships
+          </p>
         </div>
         <div className=" p-5 rounded-lg shadow-lg text-center bg-base-300">
           <img
