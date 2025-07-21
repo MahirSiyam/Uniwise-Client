@@ -11,7 +11,7 @@ const Section2 = () => {
           <div className="text-5xl mb-4 text-red-600 font-bold">1</div>
           <h3 className="text-xl font-semibold mb-2">Search Scholarships</h3>
           <p className="font-extralight">
-            Use filters to find scholarships based on your degree, country, or
+            Use filters to find scholarships based on your degree, country or
             field of study.
           </p>
         </div>
