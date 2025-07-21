@@ -54,11 +54,10 @@ const AdminLayout = () => {
           <Logo></Logo>
           <li>
             <NavLink to={`/`}>
-              <FaHome className="inline mr-2"/> Home
+              <FaHome className="inline mr-2" /> Home
             </NavLink>
           </li>
           <li>
-
             <NavLink
               to="adminMyProfile"
               className={({ isActive }) =>
