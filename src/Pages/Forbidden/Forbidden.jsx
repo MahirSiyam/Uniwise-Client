@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import forbidden from "../../assets/403 Error Forbidden-amico.svg"
+import forbidden from "../../assets/403 Error Forbidden-amico.svg";
 
 const Forbidden = () => {
   return (
@@ -8,7 +8,8 @@ const Forbidden = () => {
 
       <h1 className="text-4xl font-bold text-red-600 mt-4">403 - Forbidden</h1>
       <p className="text-gray-600 mt-2 text-lg max-w-xl">
-        You don’t have permission to access this page. Please contact the administrator or try logging in with appropriate credentials.
+        You don’t have permission to access this page. Please contact the
+        administrator or try logging in with appropriate credentials.
       </p>
 
       <Link to="/" className="mt-6">
