@@ -51,33 +51,33 @@ const ModeratorDashboardLayout = () => {
         <ul className="menu gap-2 bg-base-300 text-base-content min-h-full w-80 p-4">
           <Logo></Logo>
           <li>
-            <NavLink to={`/`} className={'font-semibold'}>
+            <NavLink to={`/`} className={"font-semibold"}>
               <FaHome className="inline mr-2" /> Home
             </NavLink>
           </li>
           <li>
-            <NavLink to={`moderatorMyProfile`} className={'font-semibold'}>
+            <NavLink to={`moderatorMyProfile`} className={"font-semibold"}>
               <FaUserCircle className="inline mr-2" /> My Profile
             </NavLink>
           </li>
           <li>
-            <NavLink to="manageScholarships" className={'font-semibold'}>
+            <NavLink to="manageScholarships" className={"font-semibold"}>
               <FaTasks className="inline mr-2" /> Manage Scholarships
             </NavLink>
           </li>
           <li>
-            <NavLink to="allReviews" className={'font-semibold'}>
+            <NavLink to="allReviews" className={"font-semibold"}>
               <FaStar className="inline mr-2" /> All Reviews
             </NavLink>
           </li>
           <li>
-            <NavLink to="allAppliedScholarships" className={'font-semibold'}>
+            <NavLink to="allAppliedScholarships" className={"font-semibold"}>
               <FaClipboardList className="inline mr-2" /> All Applied
               Scholarship
             </NavLink>
           </li>
           <li>
-            <NavLink to="addScholarship" className={'font-semibold'}>
+            <NavLink to="addScholarship" className={"font-semibold"}>
               <FaPlusCircle className="inline mr-2" /> Add Scholarship
             </NavLink>
           </li>
