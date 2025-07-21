@@ -1,11 +1,7 @@
 import React, { useState } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import Swal from "sweetalert2";
-import {
-  FaInfoCircle,
-  FaCommentDots,
-  FaTrashAlt,
-} from "react-icons/fa";
+import { FaInfoCircle, FaCommentDots, FaTrashAlt } from "react-icons/fa";
 import useAxiosSecure from "../../Hooks/useAxiosSecure";
 
 const AllAppliedScholarship = () => {
@@ -16,7 +12,7 @@ const AllAppliedScholarship = () => {
   const [detailsApp, setDetailsApp] = useState(null);
   const [feedbackApp, setFeedbackApp] = useState(null);
   const [feedbackText, setFeedbackText] = useState("");
-  const [filterType, setFilterType] = useState("default"); // For sorting/filtering
+  const [filterType, setFilterType] = useState("default");
 
   // Fetch applications
   const { data: applications = [], isLoading } = useQuery({
@@ -123,7 +119,9 @@ const AllAppliedScholarship = () => {
         >
           <option value="default">Filter: Default</option>
           <option value="appliedDate">Sort by Applied Date (Newest)</option>
-          <option value="deadline">Sort by Scholarship Deadline (Nearest)</option>
+          <option value="deadline">
+            Sort by Scholarship Deadline (Nearest)
+          </option>
         </select>
       </div>
 
