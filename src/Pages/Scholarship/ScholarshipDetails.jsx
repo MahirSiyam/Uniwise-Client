@@ -6,7 +6,7 @@ const ScholarshipDetails = () => {
   const { id } = useParams();
   const axiosSecure = useAxiosSecure();
 
-  console.log(id);
+  // console.log(id);
 
   const navigate = useNavigate();
 
@@ -42,7 +42,7 @@ const ScholarshipDetails = () => {
   }
 
   const handlePay = (id) => {
-    console.log("proceed the payment", id);
+    // console.log("proceed the payment", id);
 
     navigate(`/payment/${id}`, { state: scholarship });
   };

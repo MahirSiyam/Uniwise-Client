@@ -59,10 +59,10 @@ const AdminAddScholarship = () => {
       // Optional extras
       data.status = "pending";
 
-      console.log("Scholarship Data:", data);
+      // console.log("Scholarship Data:", data);
 
       axiosSecure.post(`/scholarships`, data).then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data.insertedId) {
 
           Swal.fire({
@@ -77,9 +77,9 @@ const AdminAddScholarship = () => {
       reset();
       setImageUrl("");
     } catch (error) {
-      console.log(error);
+      // console.log(error);
       Swal.fire({
-        icon: "error",
+        icon: error,
         title: "Submission Failed",
         text: "Something went wrong. Please try again.",
       });

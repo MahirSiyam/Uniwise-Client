@@ -3,7 +3,7 @@ import React, { use, useEffect } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
 
 const axiosSecure = axios.create({
-  baseURL: `http://localhost:5000`,
+  baseURL: `https://uniwise-server.vercel.app`,
 });
 
 const useAxiosSecure = () => {

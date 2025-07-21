@@ -32,7 +32,7 @@ const Navbar = () => {
 
   const {role , roleLoading} = useUserRole();
 
-  console.log(role);
+  // console.log(role);
 
   const navItems = (
     <>
@@ -74,7 +74,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="w-full fixed top-0 z-50 backdrop-blur-lg shadow-xl">
+    <div className="w-full fixed top-0 z-50 backdrop-blur-lg shadow-md">
       <div className="navbar p-0 max-w-10/12 mx-auto">
         <div className="navbar-start">
           <div className="dropdown">

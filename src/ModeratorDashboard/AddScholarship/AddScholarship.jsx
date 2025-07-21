@@ -59,10 +59,10 @@ const AddScholarship = () => {
       // Optional extras
       data.status = "pending";
 
-      console.log("Scholarship Data:", data);
+      // console.log("Scholarship Data:", data);
 
       axiosSecure.post(`/scholarships`, data).then((res) => {
-        console.log(res.data);
+        // console.log(res.data);
         if (res.data.insertedId) {
 
           Swal.fire({
