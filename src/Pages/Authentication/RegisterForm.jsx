@@ -100,10 +100,7 @@ const RegisterForm = () => {
         <div className="card bg-base-300 w-full max-w-sm shrink-0 shadow-2xl">
           <div className="card-body">
             <h1 className="text-5xl font-bold mb-5">Register</h1>
-            <form
-              onSubmit={handleSubmit(onSubmit)}
-              className="fieldset"
-            >
+            <form onSubmit={handleSubmit(onSubmit)} className="fieldset">
               {/* Name */}
               <div>
                 <label className="label">User Name</label>
