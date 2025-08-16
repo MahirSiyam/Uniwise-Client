@@ -38,7 +38,6 @@ const LoginForm = () => {
       console.error("Login failed:", error.message);
     }
   };
-
   return (
     <div className="hero mt-16 min-h-screen">
       <div className="hero-content p-0 flex-col lg:flex-row">
