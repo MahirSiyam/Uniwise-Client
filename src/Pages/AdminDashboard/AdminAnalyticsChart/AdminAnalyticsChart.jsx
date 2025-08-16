@@ -158,5 +158,4 @@ const AdminAnalyticsChart = () => {
     </div>
   );
 };
-
 export default AdminAnalyticsChart;
