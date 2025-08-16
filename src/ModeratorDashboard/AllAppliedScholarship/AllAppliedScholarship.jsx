@@ -292,5 +292,4 @@ const AllAppliedScholarship = () => {
     </div>
   );
 };
-
 export default AllAppliedScholarship;
