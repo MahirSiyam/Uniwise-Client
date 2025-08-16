@@ -61,7 +61,6 @@ const RegisterForm = () => {
         console.error(error);
       });
   };
-
   const handleImageUpload = async (e) => {
     const image = e.target.files[0];
     if (!image) return;
